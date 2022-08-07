@@ -138,7 +138,7 @@ p{font-size: 1.25em;}
 	color: white;
 }
 
-.hero .container .container-col form input[type="button"]{
+.hero .container .container-col form input[type="submit"]{
     width: 60%;
 	margin: auto;
 	border: solid thin white;
@@ -153,7 +153,7 @@ p{font-size: 1.25em;}
 	margin-bottom: 2rem;
 }
 
-.hero .container .container-col form input[type="button"]:hover{
+.hero .container .container-col form input[type="submit"]:hover{
 	background-color: black;
 	color: #ffffff;
 }
