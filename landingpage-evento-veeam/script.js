@@ -97,7 +97,7 @@ function submitUserForm() {
     var webform = document.getElementById('mG61Hd');
     console.log(webform.submit());
           
-    if(webform=="success") {
+    if(webform=="") {
         swal('Mensaje enviado','Sus datos han sido enviados exitosamente','success');
     } else {
         swal('Error','El mensaje no se pudo enviar. Inténtelo de nuevo','error');
