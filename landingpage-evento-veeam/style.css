@@ -153,6 +153,11 @@ p{font-size: 1.25em;}
 	margin-bottom: 2rem;
 }
 
+.hero .container .container-col form input[type="button"]:hover{
+	background-color: black;
+	color: #ffffff;
+}
+
 .hero .container-webform{
 	position: absolute;
 	opacity: 0;
