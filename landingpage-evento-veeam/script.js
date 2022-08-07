@@ -99,9 +99,9 @@ function submitUserForm() {
       
     .then(() => {
       btn.value = 'Enviar';
-      swal('Mensaje enviado','Sus datos han sido enviados exitosamente','success');
+      swal.fire('Mensaje enviado','Sus datos han sido enviados exitosamente','success');
     }, (err) => {
       btn.value = 'Enviar';
-      swal('Error','El mensaje no se pudo enviar. Inténtelo de nuevo','error');
+      swal.fire('Error','El mensaje no se pudo enviar. Inténtelo de nuevo','error');
     });
 }
