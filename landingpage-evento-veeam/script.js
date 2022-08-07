@@ -94,9 +94,7 @@ function SendFormGoogleSheets() {
 }
 
 function submitUserForm() {
-    var webform = document.getElementById('webform');
-    console.log(webform.SendFormGoogleSheets());
-      
+          
     if(webform=="success") {
         swal('Mensaje enviado','Sus datos han sido enviados exitosamente','success');
     } else {
