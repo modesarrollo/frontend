@@ -96,12 +96,4 @@ function SendFormGoogleSheets() {
 function submitUserForm() {
     var webform = document.getElementById('mG61Hd');
     console.log(webform.submit());
-      
-    .then(() => {
-      btn.value = 'Enviar';
-      swal.fire('Mensaje enviado','Sus datos han sido enviados exitosamente','success');
-    }, (err) => {
-      btn.value = 'Enviar';
-      swal.fire('Error','El mensaje no se pudo enviar. Inténtelo de nuevo','error');
-    });
 }
