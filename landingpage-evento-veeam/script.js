@@ -92,3 +92,14 @@ function SendFormGoogleSheets() {
     document.elementById("entry.1337371359").focus();
     }
 }
+
+function submitUserForm() {
+    var webform = document.getElementById('webform');
+    console.log(webform.submit());
+      
+    if(webform=="success") {
+        swal('Mensaje enviado','Sus datos han sido enviados exitosamente','success');
+    } else {
+        swal('Error','El mensaje no se pudo enviar. Inténtelo de nuevo','error');
+    }
+}
