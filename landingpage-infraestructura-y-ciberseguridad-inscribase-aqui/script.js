@@ -71,8 +71,8 @@ const countdown = (deadline, elem, finalMessage) => {
     }, 1000)
 };
 
-countdown('Feb 22 2023 07:30:00 GMT-0500', 'clock', '¡Bienvenido!');
-countdown('Feb 22 2023 07:30:00 GMT-0500', 'launch-time', '¡Bienvenido!');
+countdown('Mar 02 2023 07:30:00 GMT-0500', 'clock', '¡Bienvenido!');
+countdown('Mar 02 2023 07:30:00 GMT-0500', 'launch-time', '¡Bienvenido!');
 
 //Send Google Sheets from Form
 
